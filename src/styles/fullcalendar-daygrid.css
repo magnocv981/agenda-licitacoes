@@ -1,0 +1,79 @@
+.fc {
+  direction: ltr;
+  text-align: left;
+}
+
+.fc .fc-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 0.4em 1em;
+  margin: 0.2em;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.fc .fc-button:hover {
+  background-color: #0056b3;
+}
+
+.fc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.fc-daygrid-day-number {
+  padding: 4px;
+  text-align: right;
+}
+
+.fc-daygrid-day {
+  border: 1px solid #ddd;
+}
+
+.fc-daygrid-event {
+  background-color: #3788d8;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 2px 4px;
+  font-size: 0.75rem;
+  margin: 2px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fc-daygrid-event:hover {
+  background-color: #2c6cad;
+}
+
+.fc-daygrid-event-dot {
+  display: none;
+}
+
+.fc .fc-col-header-cell {
+  background: #f3f3f3;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0;
+  border: 1px solid #ddd;
+}
+
+.fc-scrollgrid {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border: 1px solid #ddd;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border: 1px solid #ddd;
+}
