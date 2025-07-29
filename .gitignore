@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+.env
+.vite/
+
+# Vite
+*.log
+*.lock
+.DS_Store
+npm-debug.log*
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Optional: sistema operacional
+Thumbs.db
